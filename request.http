@@ -1,0 +1,11 @@
+
+###
+POST http://localhost:8081/api/exception/1
+
+### API - zh-TW exception
+POST http://localhost:8081/api/exception
+Accept-Language: zh-TW
+
+### API - en-US exception
+POST http://localhost:8081/api/exception
+Accept-Language: en-US
