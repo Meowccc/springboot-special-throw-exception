@@ -14,7 +14,7 @@ public enum WebErrorEnum implements WebError {
     INTERNAL_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "ERR0001", "Custom internal Error. "),
     MISSING_TOKEN(HttpStatus.UNAUTHORIZED, "ERR0002", "Missing token. "),
     INVALID_TOKEN(HttpStatus.UNAUTHORIZED, "ERR0003", "Invalid token. "),
-    INVALID_ARG(HttpStatus.UNAUTHORIZED, "ERR0004", "Invalid arg: {}. "),
+    INVALID_ARG(HttpStatus.BAD_REQUEST, "ERR0004", "Invalid arg: {}. "),
     ;
 
     private final HttpStatus statusCode;
